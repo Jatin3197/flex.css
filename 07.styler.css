@@ -1,0 +1,292 @@
+.container {
+  border: 2px solid rgb(169, 168, 168);
+  width: 1350px;
+  height: 930px;
+  margin: auto;
+  margin-top: 30px;
+}
+.navbar .img1 {
+  width: 66.92px;
+  height: 81.11px;
+  top: 50.69px;
+  left: 101.69px;
+  padding: 28px 40px 16px 74px;
+}
+.navbar .img2 {
+  width: 81.11px;
+  height: 81.11px;
+  top: 50.69px;
+  left: 188.58px;
+  padding: 20px 10px 18px 0px;
+}
+.navbar a {
+  text-decoration: none;
+  position: relative;
+  left: 175px;
+  bottom: 80px;
+  color: #000000;
+  display: inline;
+  /* border: 2px solid grey; */
+  margin-left: 20px;
+  font-weight: 550;
+}
+.navbar button {
+  position: relative;
+  right: 95px;
+  bottom: 50px;
+  margin-left: 20px;
+  border: 2px solid rgb(214, 211, 211);
+  border-radius: 5px;
+}
+.navbar .button1 {
+  background-color: #f88035;
+  font-weight: 550;
+  color: #ffffff;
+}
+.navbar .button2 {
+  background-color: white;
+  font-weight: 550;
+}
+.navbar .button3 {
+  background-color: white;
+  font-weight: 550;
+}
+.main h1 {
+  position: relative;
+  left: 80px;
+  top: 10px;
+}
+.main a {
+  text-decoration: none;
+  position: relative;
+  top: 5px;
+  left: 67px;
+  margin-left: 13px;
+  font-size: 22px;
+}
+.main .safety {
+  color: #01bb01;
+  font-weight: 550;
+}
+.main .security {
+  color: #e86718;
+  font-weight: 550;
+}
+.main .punctuality {
+  color: #213d77;
+  font-weight: 550;
+}
+.main button {
+  position: relative;
+  top: 80px;
+  right: 240px;
+  margin-left: 22px;
+  border: 2px solid rgb(203, 203, 203);
+  width: 140px;
+  height: 25px;
+  font-size: 15px;
+  font-weight: 550;
+  border-radius: 5px;
+}
+.main .button1 {
+  color: #ffffff;
+  background-color: #213d77;
+}
+.main .button2 {
+  background-color: #ffffff;
+}
+.main .button3 {
+  background-color: #ffffff;
+}
+.aside img {
+  float: right;
+  width: 600px;
+  height: 895px;
+  position: relative;
+  bottom: 239px;
+}
+#train {
+  border: 2px solid #01bb01;
+  width: 380px;
+  height: 32px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #01bb01;
+  border-radius: 5px;
+  font-size: 19px;
+  position: relative;
+  top: 480px;
+  left: 120px;
+  font-weight: 600;
+  padding-top: 10px;
+}
+#train::after {
+  content: "\25BA";
+  position: relative;
+  left: 10px;
+}
+.main .button1::before {
+  content: "\25BA";
+}
+.main .button2::before {
+  content: "\2713";
+  position: absolute;
+  right: 110px;
+  bottom: 3px;
+  font-weight: 700;
+}
+.main .button3::before {
+  content: "\25BA";
+}
+.section a {
+  text-decoration: none;
+  color: #000000;
+}
+.section {
+  border: 2px solid rgb(199, 198, 198);
+  width: 570px;
+  height: 80px;
+  position: absolute;
+  bottom: 190px;
+  left: 150px;
+  border-radius: 5px;
+}
+.section .from {
+  position: absolute;
+  left: 40px;
+  top: 10px;
+}
+.section .to {
+  position: absolute;
+  left: 350px;
+  top: 10px;
+}
+.section .bangalore {
+  position: absolute;
+  top: 28px;
+  left: 18px;
+  font-weight: 700;
+  font-size: 23px;
+}
+.section .kasaragod {
+  position: absolute;
+  left: 330px;
+  top: 28px;
+  font-weight: 700;
+  font-size: 23px;
+}
+.section .ban {
+  position: absolute;
+  top: 55px;
+  left: 40px;
+}
+.section .kasa {
+  position: absolute;
+  top: 55px;
+  left: 350px;
+}
+/* .section .from::after {
+  content: "\25BC";
+  position: relative;
+  top: 4px;
+}
+.section .to::after {
+  content: "\25BC";
+  position: relative;
+  top: 4px;
+} */
+.section .bangalore::after {
+  content: "\2190 ";
+  position: relative;
+  left: 90px;
+  font-size: 20px;
+  font-weight: 900;
+  border: 2px solid grey;
+  border-radius: 50%;
+}
+
+.section .kasaragod::before {
+  content: "\2192 ";
+  position: relative;
+  right: 100px;
+  bottom: 5px;
+  font-size: 20px;
+  font-weight: 900;
+}
+.article a { 
+  text-decoration: none;
+  color: #000000;
+}
+.article {
+  border: 2px solid rgb(192, 192, 192);
+  width: 570px;
+  height: 80px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 40px;
+  left: 150px;
+}
+.article .date{
+  position: absolute;
+  left: 20px;
+  top: 10px;
+}
+.article .set{
+  position: absolute;
+  left: 20px;
+  top: 35px;
+  font-weight: 800;
+  font-size: 20px;
+}
+.article .tuesday{
+  position: absolute;
+  left: 20px;
+  top: 60px;
+}
+.article .class{
+  position: absolute;
+  left: 270px;
+  top: 10px;
+}
+.article .plan{
+  position: absolute;
+  left: 280px;
+  top: 35px;
+  font-weight: 800;
+  font-size: 20px;
+}
+.article .pre{
+  position: absolute;
+  left: 268px;
+  top: 60px;
+}
+.article .long{
+  position: absolute;
+  left: 430px;
+  top: 60px;
+}
+.article .type{
+  position: absolute;
+  left: 430px;
+  top: 10px;
+}
+.article .tatkal{
+  position: absolute;
+  left: 430px;
+  top: 35px;
+  font-weight: 800;
+  font-size: 20px;
+}
+/* .article .class::after{
+  content: "\25BC ";
+  position: absolute;
+  top: 4px;
+}
+.article .type::after{
+  content: "\25BC ";
+  position: absolute;
+  top: 4px;
+}  */
+.section .bangalore::before{
+  content: "\25BA";
+}
